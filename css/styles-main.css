@@ -1,0 +1,234 @@
+
+
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-image: linear-gradient(
+      rgba(233, 233, 229, 0.9),
+      rgba(233, 232, 231, 0.9)
+    ),
+    url("https://res.cloudinary.com/ownproject/image/upload/v1625670533/CV/anna-zaro-WnzNQfw1jOU-unsplash_rhzm58.jpg");
+}
+
+h1 {
+  color: #0a1931;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Tangerine", cursive;
+}
+
+h2 {
+  color: #0a1931;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #070816;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.profile-img {
+  width: 18rem;
+  position: relative;
+  margin-top: -3rem;
+}
+
+.top-hr {
+  border: 6px;
+  border-bottom: none;
+  width: auto;
+  margin: auto;
+  border-style: double;
+}
+
+.bottom-hr {
+  border-spacing: 6px;
+  border: 6px;
+  border-bottom: none;
+  width: auto;
+  margin: auto;
+  border-style: double;
+}
+
+.mid-hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top-container {
+  /* background-color: #fff5eb; */
+  position: relative;
+  padding-top: 100px;
+  background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.74)),
+    url("https://res.cloudinary.com/ownproject/image/upload/v1625753716/CV/adria-tormo-VtppxC-GfZs-unsplash_mwponb.jpg");
+  background-repeat: no-repeat;
+  background-size: 100rem;
+  background-position: 50% 50%;
+  background-position-y: -50rem;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #548ca8;
+  padding: 50px 0 20px;
+  background-position: 50% 50%;
+  background-position-y: -350rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.gaming-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-hr {
+  border: 0;
+  height: 0;
+  box-shadow: 0 0 10px 1px rgb(0, 0, 0);
+}
+
+.bottom-hr:after {
+  /* Not really supposed to work, but does */
+  content: "\00a0"; /* Prevent margin collapse */
+}
+
+.top-hr {
+  bottom: 60px;
+  position: inherit;
+  border: 0;
+  height: 0;
+  box-shadow: 0 0 10px 1px rgb(0, 0, 0);
+}
+
+.top-hr:after {
+  /* Not really supposed to work, but does */
+  content: "\00a0"; /* Prevent margin collapse */
+}
+
+.btn {
+  box-shadow: inset 0px 1px 0px 0px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border-radius: 17px;
+  border: 1px solid #29668f;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 50px #3d768a;
+}
+.btn:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .intro {
+    width: 75%;
+   }
+   .contact-message {
+    width: 85%;
+   }
+   .footer-link {
+     display: block;
+     padding-top: 1%;
+     padding-bottom: 2%;
+   }
+   .skill-row {
+    width: 85%;
+    margin: 100px auto 100px auto;
+  }
+}
+ 
+@media only screen and (max-width: 991px) {
+  .intro {
+    width: 60%;
+   }
+   .contact-message {
+    width: 70%;
+   }
+   .skill-row {
+    width: 70%;
+    margin: 100px auto 100px auto;
+  }
+}
