@@ -118,6 +118,13 @@ span {
   width: 70%;
   margin-top: 0.4rem;
   margin-left: 4rem;
+  margin-bottom: 0.2rem;
+}
+
+.address-text4 {
+  width: 70%;
+  margin-top: 0.4rem;
+  margin-left: 4rem;
   margin-bottom: 2rem;
 }
 
@@ -234,6 +241,11 @@ div.split2 {
   }
   
   .address-text3 {
+    width: 70%;
+    margin-left: 2rem;
+  }
+
+  .address-text4 {
     width: 70%;
     margin-left: 2rem;
   }
